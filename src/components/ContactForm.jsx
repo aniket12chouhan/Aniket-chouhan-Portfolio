@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../layouts/Button'
 
-const Form = () => {
+const ContactForm = () => {
     return (
         <>
             <div className='min-h-screen flex flex-col justify-center items-center lg:px-32 px-5 bg-backgroundColor '>
@@ -52,4 +52,4 @@ const Form = () => {
     )
 }
 
-export default Form
+export default ContactForm

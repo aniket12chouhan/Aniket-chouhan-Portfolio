@@ -5,7 +5,9 @@ import About from "./components/About";
 import MySkills from "./components/MySkills";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
-import Form from "./components/form";
+import ContactForm from "./components/ContactForm";
+
+
 
 const App = () => {
   return (
@@ -29,7 +31,7 @@ const App = () => {
           <Portfolio />
         </div>
         <div id="contact">
-          <Form />
+          <ContactForm />
         </div>
       </main>
 
