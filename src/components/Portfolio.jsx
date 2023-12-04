@@ -4,11 +4,16 @@ import img2 from "../assets/portfolio/expanse.png";
 import img3 from "../assets/portfolio/language.png";
 import img4 from "../assets/portfolio/crypto.png";
 import img5 from "../assets/portfolio/e-commerce.png";
+import img6 from "../assets/portfolio/movie.png";
 
 
 const Portfolio = () => {
 
   const project = [
+    {
+      img: img6,
+      projectLinks: "https://movie-app-blush-rho.vercel.app/"
+    },
     {
       img: img4,
       projectLinks: "https://my-crypto-app-puce.vercel.app/"
@@ -30,6 +35,7 @@ const Portfolio = () => {
       img: img5,
       projectLinks: "https://fake-store-beige.vercel.app/"
     },
+
   ]
 
   return (
